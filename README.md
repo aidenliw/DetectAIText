@@ -29,14 +29,14 @@ The purpose of this project is to develop a machine learning model capable of di
     export OPENAI_API_KEY='your-api-key-here'
     ```
 
-5. **Run the Streamlit App Using BERT Models**:
+5. **Run the Streamlit App Using BERT-related Models**:
     ```bash
-    streamlit run app.py
+    python -m streamlit run app.py
     ```
 
 6. **Run the Streamlit App Using ChatGPT-4o-mini Model**:
     ```bash
-    streamlit run app_gpt.py
+    python -m streamlit run app_gpt.py
     ```
 
 ## Description of Each File
