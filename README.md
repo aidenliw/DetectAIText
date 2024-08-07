@@ -31,7 +31,7 @@ The purpose of this project is to develop a machine learning model capable of di
 
 5. **Run the Streamlit App Using BERT-related Models**:
     ```bash
-    python -m streamlit run app.py
+    python -m streamlit run app_bert.py
     ```
 
 6. **Run the Streamlit App Using ChatGPT-4o-mini Model**:
@@ -41,18 +41,18 @@ The purpose of this project is to develop a machine learning model capable of di
 
 ## Description of Each File
 
-- **769Logistic.ipynb**: Focuses on Logistic Regression with TF-IDF analysis for detecting AI-generated text. This notebook includes the implementation and evaluation of the model.
-
-- **app.py**: Streamlit app execution file that uses BERT-related models (including DistilBERT and RoBERTa) to detect AI-generated text. This file sets up the user interface and handles model inference.
+- **app_bert.py**: Streamlit app execution file that uses BERT-related models (including DistilBERT and RoBERTa) to detect AI-generated text. This file sets up the user interface and handles model inference.
 
 - **app_gpt.py**: Streamlit app execution file that uses the ChatGPT-4o-mini model to detect AI-generated text. This file sets up the user interface and handles API requests to OpenAI.
 
-- **DetectAI.ipynb**: A starter file that includes basic Logistic Regression with TF-IDF analysis and BERT model development. It covers training and testing results for both approaches.
+- **LogisticRegression.ipynb**: Focuses on Logistic Regression with TF-IDF analysis for detecting AI-generated text. This notebook includes the implementation and evaluation of the model.
 
-- **DetectAIDistilBERT.ipynb**: Contains the code development for DistilBERT model, including training and testing results. It focuses on fine-tuning the DistilBERT model for the task.
+- **BERT.ipynb**: Contains the basic BERT model development. It covers training and testing results for both approaches.
 
-- **DetectAIRoBERTa.ipynb**: Contains the code development for RoBERTa model, including training and testing results. It focuses on fine-tuning the RoBERTa model for the task.
+- **DistilBERT.ipynb**: Contains the code development for DistilBERT model, including training and testing results. It focuses on fine-tuning the DistilBERT model for the task.
 
-- **DetectAIGPT.ipynb**: Utilizes the ChatGPT model via API to detect AI-generated text. This notebook demonstrates how to interact with OpenAI's API and evaluate the model's performance.
+- **RoBERTa.ipynb**: Contains the code development for RoBERTa model, including training and testing results. It focuses on fine-tuning the RoBERTa model for the task.
+
+- **ChatGPT-4o-mini.ipynb**: Utilizes the ChatGPT model via API to detect AI-generated text. This notebook demonstrates how to interact with OpenAI's API and evaluate the model's performance.
 
 - **Training_Essay_Data.csv**: The dataset used for training the models. It consists of essays labeled as human-written or AI-generated.
