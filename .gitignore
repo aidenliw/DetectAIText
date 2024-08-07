@@ -1,3 +1,4 @@
+.env
 bert_model
 distilbert_model
-.env
+roberta_model
