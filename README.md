@@ -41,6 +41,8 @@ The purpose of this project is to develop a machine learning model capable of di
 
 ## Description of Each File
 
+- **app.py**: Final multi-functional Streamlit app execution file that uses all models to detect AI-generated text. This file sets up the user interface and handles model inference.
+
 - **app_bert.py**: Streamlit app execution file that uses BERT-related models (including DistilBERT and RoBERTa) to detect AI-generated text. This file sets up the user interface and handles model inference.
 
 - **app_gpt.py**: Streamlit app execution file that uses the ChatGPT-4o-mini model to detect AI-generated text. This file sets up the user interface and handles API requests to OpenAI.
